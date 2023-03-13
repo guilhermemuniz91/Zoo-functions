@@ -1,6 +1,6 @@
 const data = require('../data/zoo_data');
 
-const employees = data.employees
+const employees = data.employees;
 
 const getEmployeeByName = (employeeName) => {
   if (!employeeName) {
