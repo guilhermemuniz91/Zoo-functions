@@ -30,7 +30,7 @@ const findEmployee = (param) => {
 };
 
 const getEmployeesCoverage = (param) => {
-  if (!param) { return AllEmployees(); }
+  if (param === undefined) { return AllEmployees(); }
   return singleEmployee(findEmployee(param));
 };
 
